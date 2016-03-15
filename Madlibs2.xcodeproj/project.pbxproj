@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		439E23C41C980EE4008AD52E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E23C31C980EE4008AD52E /* AppDelegate.swift */; };
+		439E23C61C980EE4008AD52E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E23C51C980EE4008AD52E /* ViewController.swift */; };
+		439E23C91C980EE4008AD52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439E23C71C980EE4008AD52E /* Main.storyboard */; };
+		439E23CB1C980EE4008AD52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439E23CA1C980EE4008AD52E /* Assets.xcassets */; };
+		439E23CE1C980EE4008AD52E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439E23CC1C980EE4008AD52E /* LaunchScreen.storyboard */; };
+		439E23D91C980EE4008AD52E /* Madlibs2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E23D81C980EE4008AD52E /* Madlibs2Tests.swift */; };
+		439E23E41C980EE4008AD52E /* Madlibs2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E23E31C980EE4008AD52E /* Madlibs2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		439E23D51C980EE4008AD52E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 439E23B81C980EE4008AD52E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 439E23BF1C980EE4008AD52E;
+			remoteInfo = Madlibs2;
+		};
+		439E23E01C980EE4008AD52E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 439E23B81C980EE4008AD52E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 439E23BF1C980EE4008AD52E;
+			remoteInfo = Madlibs2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		439E23C01C980EE4008AD52E /* Madlibs2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Madlibs2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		439E23C31C980EE4008AD52E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		439E23C51C980EE4008AD52E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		439E23C81C980EE4008AD52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		439E23CA1C980EE4008AD52E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		439E23CD1C980EE4008AD52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		439E23CF1C980EE4008AD52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439E23D41C980EE4008AD52E /* Madlibs2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Madlibs2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		439E23D81C980EE4008AD52E /* Madlibs2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Madlibs2Tests.swift; sourceTree = "<group>"; };
+		439E23DA1C980EE4008AD52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439E23DF1C980EE4008AD52E /* Madlibs2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Madlibs2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		439E23E31C980EE4008AD52E /* Madlibs2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Madlibs2UITests.swift; sourceTree = "<group>"; };
+		439E23E51C980EE4008AD52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		439E23BD1C980EE4008AD52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439E23D11C980EE4008AD52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439E23DC1C980EE4008AD52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		439E23B71C980EE4008AD52E = {
+			isa = PBXGroup;
+			children = (
+				439E23C21C980EE4008AD52E /* Madlibs2 */,
+				439E23D71C980EE4008AD52E /* Madlibs2Tests */,
+				439E23E21C980EE4008AD52E /* Madlibs2UITests */,
+				439E23C11C980EE4008AD52E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		439E23C11C980EE4008AD52E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439E23C01C980EE4008AD52E /* Madlibs2.app */,
+				439E23D41C980EE4008AD52E /* Madlibs2Tests.xctest */,
+				439E23DF1C980EE4008AD52E /* Madlibs2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439E23C21C980EE4008AD52E /* Madlibs2 */ = {
+			isa = PBXGroup;
+			children = (
+				439E23C31C980EE4008AD52E /* AppDelegate.swift */,
+				439E23C51C980EE4008AD52E /* ViewController.swift */,
+				439E23C71C980EE4008AD52E /* Main.storyboard */,
+				439E23CA1C980EE4008AD52E /* Assets.xcassets */,
+				439E23CC1C980EE4008AD52E /* LaunchScreen.storyboard */,
+				439E23CF1C980EE4008AD52E /* Info.plist */,
+			);
+			path = Madlibs2;
+			sourceTree = "<group>";
+		};
+		439E23D71C980EE4008AD52E /* Madlibs2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				439E23D81C980EE4008AD52E /* Madlibs2Tests.swift */,
+				439E23DA1C980EE4008AD52E /* Info.plist */,
+			);
+			path = Madlibs2Tests;
+			sourceTree = "<group>";
+		};
+		439E23E21C980EE4008AD52E /* Madlibs2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				439E23E31C980EE4008AD52E /* Madlibs2UITests.swift */,
+				439E23E51C980EE4008AD52E /* Info.plist */,
+			);
+			path = Madlibs2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		439E23BF1C980EE4008AD52E /* Madlibs2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439E23E81C980EE4008AD52E /* Build configuration list for PBXNativeTarget "Madlibs2" */;
+			buildPhases = (
+				439E23BC1C980EE4008AD52E /* Sources */,
+				439E23BD1C980EE4008AD52E /* Frameworks */,
+				439E23BE1C980EE4008AD52E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Madlibs2;
+			productName = Madlibs2;
+			productReference = 439E23C01C980EE4008AD52E /* Madlibs2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		439E23D31C980EE4008AD52E /* Madlibs2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439E23EB1C980EE4008AD52E /* Build configuration list for PBXNativeTarget "Madlibs2Tests" */;
+			buildPhases = (
+				439E23D01C980EE4008AD52E /* Sources */,
+				439E23D11C980EE4008AD52E /* Frameworks */,
+				439E23D21C980EE4008AD52E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				439E23D61C980EE4008AD52E /* PBXTargetDependency */,
+			);
+			name = Madlibs2Tests;
+			productName = Madlibs2Tests;
+			productReference = 439E23D41C980EE4008AD52E /* Madlibs2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		439E23DE1C980EE4008AD52E /* Madlibs2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439E23EE1C980EE4008AD52E /* Build configuration list for PBXNativeTarget "Madlibs2UITests" */;
+			buildPhases = (
+				439E23DB1C980EE4008AD52E /* Sources */,
+				439E23DC1C980EE4008AD52E /* Frameworks */,
+				439E23DD1C980EE4008AD52E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				439E23E11C980EE4008AD52E /* PBXTargetDependency */,
+			);
+			name = Madlibs2UITests;
+			productName = Madlibs2UITests;
+			productReference = 439E23DF1C980EE4008AD52E /* Madlibs2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		439E23B81C980EE4008AD52E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Swift;
+				TargetAttributes = {
+					439E23BF1C980EE4008AD52E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					439E23D31C980EE4008AD52E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 439E23BF1C980EE4008AD52E;
+					};
+					439E23DE1C980EE4008AD52E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 439E23BF1C980EE4008AD52E;
+					};
+				};
+			};
+			buildConfigurationList = 439E23BB1C980EE4008AD52E /* Build configuration list for PBXProject "Madlibs2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 439E23B71C980EE4008AD52E;
+			productRefGroup = 439E23C11C980EE4008AD52E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				439E23BF1C980EE4008AD52E /* Madlibs2 */,
+				439E23D31C980EE4008AD52E /* Madlibs2Tests */,
+				439E23DE1C980EE4008AD52E /* Madlibs2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439E23BE1C980EE4008AD52E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439E23CE1C980EE4008AD52E /* LaunchScreen.storyboard in Resources */,
+				439E23CB1C980EE4008AD52E /* Assets.xcassets in Resources */,
+				439E23C91C980EE4008AD52E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439E23D21C980EE4008AD52E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439E23DD1C980EE4008AD52E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		439E23BC1C980EE4008AD52E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439E23C61C980EE4008AD52E /* ViewController.swift in Sources */,
+				439E23C41C980EE4008AD52E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439E23D01C980EE4008AD52E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439E23D91C980EE4008AD52E /* Madlibs2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439E23DB1C980EE4008AD52E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439E23E41C980EE4008AD52E /* Madlibs2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		439E23D61C980EE4008AD52E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 439E23BF1C980EE4008AD52E /* Madlibs2 */;
+			targetProxy = 439E23D51C980EE4008AD52E /* PBXContainerItemProxy */;
+		};
+		439E23E11C980EE4008AD52E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 439E23BF1C980EE4008AD52E /* Madlibs2 */;
+			targetProxy = 439E23E01C980EE4008AD52E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		439E23C71C980EE4008AD52E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439E23C81C980EE4008AD52E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		439E23CC1C980EE4008AD52E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439E23CD1C980EE4008AD52E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		439E23E61C980EE4008AD52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		439E23E71C980EE4008AD52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		439E23E91C980EE4008AD52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Madlibs2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Madlibs2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		439E23EA1C980EE4008AD52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Madlibs2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Madlibs2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		439E23EC1C980EE4008AD52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Madlibs2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Madlibs2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Madlibs2.app/Madlibs2";
+			};
+			name = Debug;
+		};
+		439E23ED1C980EE4008AD52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Madlibs2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Madlibs2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Madlibs2.app/Madlibs2";
+			};
+			name = Release;
+		};
+		439E23EF1C980EE4008AD52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Madlibs2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Madlibs2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Madlibs2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		439E23F01C980EE4008AD52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Madlibs2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.Madlibs2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Madlibs2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		439E23BB1C980EE4008AD52E /* Build configuration list for PBXProject "Madlibs2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439E23E61C980EE4008AD52E /* Debug */,
+				439E23E71C980EE4008AD52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439E23E81C980EE4008AD52E /* Build configuration list for PBXNativeTarget "Madlibs2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439E23E91C980EE4008AD52E /* Debug */,
+				439E23EA1C980EE4008AD52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		439E23EB1C980EE4008AD52E /* Build configuration list for PBXNativeTarget "Madlibs2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439E23EC1C980EE4008AD52E /* Debug */,
+				439E23ED1C980EE4008AD52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		439E23EE1C980EE4008AD52E /* Build configuration list for PBXNativeTarget "Madlibs2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439E23EF1C980EE4008AD52E /* Debug */,
+				439E23F01C980EE4008AD52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 439E23B81C980EE4008AD52E /* Project object */;
+}
