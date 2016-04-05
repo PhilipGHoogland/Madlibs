@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		438E286C1C98454D005A6993 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = 438E28671C98454D005A6993 /* madlib0_simple.txt */; };
+		438E286D1C98454D005A6993 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 438E28681C98454D005A6993 /* madlib1_tarzan.txt */; };
+		438E286E1C98454D005A6993 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = 438E28691C98454D005A6993 /* madlib2_university.txt */; };
+		438E286F1C98454D005A6993 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 438E286A1C98454D005A6993 /* madlib3_clothes.txt */; };
+		438E28701C98454D005A6993 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = 438E286B1C98454D005A6993 /* madlib4_dance.txt */; };
 		439E23C41C980EE4008AD52E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E23C31C980EE4008AD52E /* AppDelegate.swift */; };
 		439E23C61C980EE4008AD52E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E23C51C980EE4008AD52E /* ViewController.swift */; };
 		439E23C91C980EE4008AD52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439E23C71C980EE4008AD52E /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		439E23CE1C980EE4008AD52E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439E23CC1C980EE4008AD52E /* LaunchScreen.storyboard */; };
 		439E23D91C980EE4008AD52E /* Madlibs2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E23D81C980EE4008AD52E /* Madlibs2Tests.swift */; };
 		439E23E41C980EE4008AD52E /* Madlibs2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E23E31C980EE4008AD52E /* Madlibs2UITests.swift */; };
+		43C1B5451C983B8400FB0BEC /* lastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C1B5441C983B8400FB0BEC /* lastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		438E28671C98454D005A6993 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib0_simple.txt; sourceTree = "<group>"; };
+		438E28681C98454D005A6993 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib1_tarzan.txt; sourceTree = "<group>"; };
+		438E28691C98454D005A6993 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib2_university.txt; sourceTree = "<group>"; };
+		438E286A1C98454D005A6993 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib3_clothes.txt; sourceTree = "<group>"; };
+		438E286B1C98454D005A6993 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib4_dance.txt; sourceTree = "<group>"; };
 		439E23C01C980EE4008AD52E /* Madlibs2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Madlibs2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		439E23C31C980EE4008AD52E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		439E23C51C980EE4008AD52E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		439E23DF1C980EE4008AD52E /* Madlibs2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Madlibs2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		439E23E31C980EE4008AD52E /* Madlibs2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Madlibs2UITests.swift; sourceTree = "<group>"; };
 		439E23E51C980EE4008AD52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C1B5441C983B8400FB0BEC /* lastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,14 @@
 		439E23C21C980EE4008AD52E /* Madlibs2 */ = {
 			isa = PBXGroup;
 			children = (
+				438E28671C98454D005A6993 /* madlib0_simple.txt */,
+				438E28681C98454D005A6993 /* madlib1_tarzan.txt */,
+				438E28691C98454D005A6993 /* madlib2_university.txt */,
+				438E286A1C98454D005A6993 /* madlib3_clothes.txt */,
+				438E286B1C98454D005A6993 /* madlib4_dance.txt */,
 				439E23C31C980EE4008AD52E /* AppDelegate.swift */,
 				439E23C51C980EE4008AD52E /* ViewController.swift */,
+				43C1B5441C983B8400FB0BEC /* lastViewController.swift */,
 				439E23C71C980EE4008AD52E /* Main.storyboard */,
 				439E23CA1C980EE4008AD52E /* Assets.xcassets */,
 				439E23CC1C980EE4008AD52E /* LaunchScreen.storyboard */,
@@ -230,7 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				439E23CE1C980EE4008AD52E /* LaunchScreen.storyboard in Resources */,
+				438E286F1C98454D005A6993 /* madlib3_clothes.txt in Resources */,
+				438E286D1C98454D005A6993 /* madlib1_tarzan.txt in Resources */,
 				439E23CB1C980EE4008AD52E /* Assets.xcassets in Resources */,
+				438E286C1C98454D005A6993 /* madlib0_simple.txt in Resources */,
+				438E286E1C98454D005A6993 /* madlib2_university.txt in Resources */,
+				438E28701C98454D005A6993 /* madlib4_dance.txt in Resources */,
 				439E23C91C980EE4008AD52E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C1B5451C983B8400FB0BEC /* lastViewController.swift in Sources */,
 				439E23C61C980EE4008AD52E /* ViewController.swift in Sources */,
 				439E23C41C980EE4008AD52E /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +508,7 @@
 				439E23EA1C980EE4008AD52E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		439E23EB1C980EE4008AD52E /* Build configuration list for PBXNativeTarget "Madlibs2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +517,7 @@
 				439E23ED1C980EE4008AD52E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		439E23EE1C980EE4008AD52E /* Build configuration list for PBXNativeTarget "Madlibs2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +526,7 @@
 				439E23F01C980EE4008AD52E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
